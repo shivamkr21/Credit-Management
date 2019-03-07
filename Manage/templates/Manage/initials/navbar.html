@@ -1,0 +1,27 @@
+{% load staticfiles %}
+
+<!-- <div class="header" style="background-color: #7d7373; "> -->
+<div class="header" style="background-image:url({% static '/images/nav4.jpg' %});">
+    <img src="{% static '/images/logo3.PNG' %}" style="width: 354px;" align="center">
+    <div class="header-right">
+        <ul>
+            <li class="icons">
+                <a href="javascript:void(0)">
+                    <img src="{% static '/images/user.png' %}"  width="30px" alt="pic" >
+                </a>
+                <div class="drop-down dropdown-profile animated bounceInDown" style="margin: -50px -16px 0 0;">
+                    <div class="dropdown-content-body">
+                        <ul>
+                            <li>
+                                <a href="/member"><i class="icon-power"></i> <span>View All Member</span></a>
+                            </li>
+                            <li>
+                                <a href="/transaction"><i class="icon-power"></i> <span>View All Transaction</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

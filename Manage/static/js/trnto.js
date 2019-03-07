@@ -1,0 +1,269 @@
+$(document).ready(function(){
+	$('#trn1').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':1,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn2').click(function(){
+    var crdt=$('#crdt').val();
+    $.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':2,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn3').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':3,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn4').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':4,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn5').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':5,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn6').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':6,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn7').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':7,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn8').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':8,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn9').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':9,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+ 					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#trn10').click(function(){
+    var crdt=$('#crdt').val();
+		$.ajax({
+			url:'/trncrd/',
+			type:'POST',
+			data:{'id':10,'crdt':crdt},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});

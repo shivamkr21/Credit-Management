@@ -1,0 +1,73 @@
+{% load staticfiles %}
+<HTML>
+    <HEAD>
+        <TITLE>Credit Management</TITLE>
+        <link rel="icon" type="image/png" sizes="18x18" href="{% static 'images/title.png' %}">
+        <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </HEAD>
+    <BODY background="{% static '/images/back3.JPG' %}">
+          {% include 'Manage/initials/navbar.html' %}
+          <div class="container-field">
+            <br>
+              <table style="font-size:  30; color: white;">
+                <tr>
+                  <td style="padding: 10px;">Name:- </td>
+                  <td style="padding: 10px;">
+                    {% if name %}
+                        {{ name }}
+                    {% endif  %}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">Age:- </td>
+                  <td style="padding: 10px;">
+                    {% if age %}
+                        {{ age }}
+                    {% endif  %}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">Gender:- </td>
+                  <td style="padding: 10px;">
+                    {% if gen %}
+                        {{ gen }}
+                    {% endif  %}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">Phone:- </td>
+                  <td style="padding: 10px;">
+                    {% if phn %}
+                        {{ phn }}
+                    {% endif  %}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">Mail:- </td>
+                  <td style="padding: 10px;">
+                    {% if email %}
+                        {{ email }}
+                    {% endif  %}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;">Credit:- </td>
+                  <td style="padding: 10px;">
+                    {% if credit %}
+                        {{ credit }}
+                    {% endif  %}
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script type="text/javascript" src="{% static '/js/dashboard.js' %}" ></script>
+          <script type="text/javascript" src="{% static '/js/common.min.js' %}" ></script>
+          <script type="text/javascript" src="{% static '/js/custom.min.js' %}" ></script>
+          <!-- <script type="text/javascript" src="{% static '/js/layout.js' %}" ></script> -->
+    </BODY>
+</HTML>

@@ -1,0 +1,259 @@
+$(document).ready(function(){
+	$('#sub1').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':1},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub2').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':2},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub3').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':3},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub4').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':4},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub5').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':5},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub6').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':6},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub7').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':7},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub8').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':8},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub9').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':9},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$('#sub10').click(function(){
+		$.ajax({
+			url:'/detail/',
+			type:'POST',
+			data:{'id':10},
+			success:function(response)
+			{
+				if(response=='success')
+				{
+					window.location.href='/details/'
+				}
+				if(response=='error')
+				{
+					window.alert("Hello")
+					window.location.href='/'
+				}
+			},
+			error:function(xhr,textStatus,thrownError)
+			{
+				window.location.href='/'
+			}
+		});
+	});
+});

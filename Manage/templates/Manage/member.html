@@ -1,0 +1,175 @@
+{% load staticfiles %}
+<HTML>
+    <HEAD>
+        <TITLE>Credit Management</TITLE>
+        <link rel="icon" type="image/png" sizes="18x18" href="{% static 'images/title.png' %}">
+        <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </HEAD>
+    <BODY background="{% static '/images/back3.JPG' %}">
+          {% include 'Manage/initials/navbar.html' %}
+          <div class="container-field">
+            <br>
+              <table style="font-size:  30; color: white;" align="center" >
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 1 %}
+                            {{ 1.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 1 %}
+                            {{ 1.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub1" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 2 %}
+                            {{ 2.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 2 %}
+                            {{ 2.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub2" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 3 %}
+                            {{ 3.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 3 %}
+                            {{ 3.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub3" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 4 %}
+                            {{ 4.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 4 %}
+                            {{ 4.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub4" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 5 %}
+                            {{ 5.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 5 %}
+                            {{ 5.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub5" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 6 %}
+                            {{ 6.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 6 %}
+                            {{ 6.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub6" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 7 %}
+                            {{ 7.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 7 %}
+                            {{ 7.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub7" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 8 %}
+                            {{ 8.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 8 %}
+                            {{ 8.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub8" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 9 %}
+                            {{ 9.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 9 %}
+                            {{ 9.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub9" align="center">View Profile</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        {% if 10 %}
+                            {{ 10.name }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        {% if 10 %}
+                            {{ 10.email }}
+                        {% endif  %}
+                    </td>
+                    <td style="padding: 10px;">
+                        <button name="next" class="btn action-button btn-success" id="sub10" align="center">View Profile</button>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script type="text/javascript" src="{% static '/js/dashboard.js' %}" ></script>
+          <script type="text/javascript" src="{% static '/js/common.min.js' %}" ></script>
+          <script type="text/javascript" src="{% static '/js/custom.min.js' %}" ></script>
+          <!-- <script type="text/javascript" src="{% static '/js/layout.js' %}" ></script> -->
+    </BODY>
+</HTML>

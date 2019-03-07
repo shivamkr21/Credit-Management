@@ -1,0 +1,53 @@
+{% load staticfiles %}
+<HTML>
+    <HEAD>
+        <TITLE>Credit Management</TITLE>
+        <link rel="icon" type="image/png" sizes="18x18" href="{% static 'images/mlogo.png' %}">
+        <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    </HEAD>
+    <BODY background="{% static '/images/back3.jpg' %}">
+        {% include 'Manage/initials/navbar.html' %}
+
+
+        <div class="container-fluid">
+          <br><br>
+            <div class="row" >
+                <div class="col-sm-1"></div>
+                <a href="/member" style="color:#31373f">
+                <div class="col-sm-2" align="center" style="background: linear-gradient(violet,blue,white,violet,indigo); height:70%;">
+                    <!-- <img src="{% static 'images/p1.PNG' %}"> -->
+                    <br><br><br><br><br>
+                    <p style="font-size:48px; font-family: Georgia;">View</p>
+                    <p style="font-size:48px; font-family: Georgia;">All</p>
+                    <p style="font-size:48px; font-family: Georgia;">Memeber</p>
+                </div></a>
+                <div class="col-sm-2"></div>
+                <a href="/transferfrom" style="color:#31373f">
+                <div class="col-sm-2" align="center" style="background: linear-gradient(violet,blue,white,violet,indigo); height:70%;">
+                    <!-- <img src="{% static 'images/p1.PNG' %}"> -->
+                    <br><br><br><br><br><br><br>
+                    <p style="font-size:48px; font-family: Georgia;">Transfer</p>
+                    <p style="font-size:48px; font-family: Georgia;">Credit</p>
+                </div></a>
+                <div class="col-sm-2"></div>
+                <a href="/transaction" style="color:#31373f">
+                <div class="col-sm-2" align="center" style="background: linear-gradient(violet,blue,white,violet,indigo); height:70%;">
+                    <!-- <img src="{% static 'images/p1.PNG' %}"> -->
+                    <br><br><br><br><br><br><br>
+                    <p style="font-size:48px; font-family: Georgia;">Transfer</p>
+                    <p style="font-size:48px; font-family: Georgia;">Details</p>
+                </div></a>
+</div>
+	</div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="{% static '/js/dashboard.js' %}" ></script>
+        <script type="text/javascript" src="{% static '/js/common.min.js' %}" ></script>
+        <script type="text/javascript" src="{% static '/js/custom.min.js' %}" ></script>
+        <!-- <script type="text/javascript" src="{% static '/js/layout.js' %}" ></script> -->
+    </BODY>
+</HTML>
